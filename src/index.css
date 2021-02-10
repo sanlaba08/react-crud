@@ -1,0 +1,65 @@
+body {
+  background-image: linear-gradient(to bottom right, #7a5cff 0%, #3cd644 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+} 
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.create {
+  padding-top: 20px;
+  width: 30%;
+}
+
+.listado {
+  position: absolute;
+  margin-top: -352px;
+  margin-left: 500px;
+}
+
+.details {
+  position: absolute;
+  margin-top: -352px;
+  margin-left: 900px;
+}
